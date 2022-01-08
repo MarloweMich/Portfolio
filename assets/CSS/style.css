@@ -1,0 +1,58 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    flex-flow: column wrap;
+    color: white;
+}
+body{
+    width: 100%;
+    height: auto;
+}
+
+.backgroundimage{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Oriental_rugs%2C_antique_and_modern_%281922%29_%2814593822350%29.jpg/640px-Oriental_rugs%2C_antique_and_modern_%281922%29_%2814593822350%29.jpg");
+}
+
+title{
+    display: none;
+}
+
+header {
+    padding: 10px;
+    line-height: 2;
+    margin: 0px;
+}
+
+
+#elephant {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.projects{
+    display: none;
+}
+
+#horiseon{
+    display: flex;
+    justify-content: flex-end;
+    width: 1024px;
+    height: 681px;
+}
+
+#vermintide{
+    display: flex;
+    justify-content: flex-end;
+    width: 1024px;
+    height: 681px;
+}
+
+#middleearth{
+    display: flex;
+    justify-content: flex-end;
+    width: 1024px;
+    height: 681px;
+}
