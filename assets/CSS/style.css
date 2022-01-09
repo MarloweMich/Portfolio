@@ -2,7 +2,7 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     display: flex;
     flex-flow: column wrap;
-    color: white;
+    color: black
 }
 body{
     width: 100%;
@@ -23,13 +23,17 @@ title{
 header {
     padding: 10px;
     line-height: 2;
-    margin: 0px;
+    margin: 15px;
+    background-color: bisque;
 }
 
 
 #elephant {
     display: flex;
     justify-content: flex-end;
+    max-width: 1024px;
+    max-height: 681px;
+    margin: 15px;
 }
 
 .projects{
@@ -41,6 +45,7 @@ header {
     justify-content: flex-end;
     width: 1024px;
     height: 681px;
+    margin: 15px;
 }
 
 #vermintide{
@@ -48,6 +53,7 @@ header {
     justify-content: flex-end;
     width: 1024px;
     height: 681px;
+    margin: 15px;
 }
 
 #middleearth{
@@ -55,4 +61,6 @@ header {
     justify-content: flex-end;
     width: 1024px;
     height: 681px;
+    margin: 15px;
 }
+
