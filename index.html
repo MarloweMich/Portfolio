@@ -1,72 +1,102 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href=".\assets\CSS\reset.css">
-        <link rel="stylesheet" href=".\assets\CSS\style.css">
-        <title>Michael Marlowe</title>
-    </head>
-    <body class=backgroundimage>
-        <header id=top>
-            <br>
-            <h1>Michael Marlowe</h1> <br>
-            <img src=".\assets\Images\stunning_photograph.jpg" alt="Stunning Photograph of Michael Marlowe">
-            <h3><a href="https://github.com/marlowemich">github.com/marlowemich</a></h3>
-            <h3>404-983-0587</h3>
-            <h3>marlowemich@gmail.com</h3>
-        </header>
-        
-            <section>
-                <nav>
-                    <ul>
-                        <li><button type="button"><a href="#top">Top of Page</a></button></li>
-                        <li>Projects:</li>
-                        <li><button type="button"><a href="#horiseon">Horiseon</a></button></li>
-                        <li><button type="button"><a href="#vermintide">Placeholder 1</a></button></li>
-                        <li><button type="button"><a href="#middleearth">Placeholder 2</a></button></li>
-                    </ul>
-                </nav>
-            </section>
-        
-        <main>
-            <section class=elephant>
-                    <figure id=elephant>
-                    <img src=".\assets\Images\Elephant.jpg" alt="Elephant">
-                     </figure>
-                     <h2 class=etext1>
-                        Web developer utilizing newly learned skills in responsive web deign, CSS, JavaScript from Georgia Tech Bootcamp. <br>
-                        Over a decade of experience as a hands on worker in construction, printing press and culinary fields with a desire <br>
-                        to implement functional and tedium-destroying software to make aspects of these fields more manageable <br>
-                        (ie theoretical inventory trackers and adjustable recipe apps). <br>
-                        An ambition to be a key factor in the visualization of story driven games on a screen as well as perpetuating <br>
-                        literature and cultural artifacts into an increasingly digital world.</h2>
-            </section>
-            <div class=bigbar></div>
-            <section class=project1>
-                <h2 class=etext1> Horiseon focuses on Search Engine Optimization, Online Reputation Management and Social Media Marketing <br>
-                     with the unique spin of being a completely fictional company.</h2>
-                    <figure id=horiseon>
-                    <img src=".\assets\Images\Horiseon Screenshot.png" alt="Horiseon Screenshot"><br>
-                    </figure>
-                        <h2 class=etext2>
-                <a href="https://marlowemich.github.io/horiseon-code/">Deployed Site</a>
-                        </h2>
-            </section>
-            <div class=bigbar></div>
-            <section class=project2>
-                <h2 class=etext1>This is the cover of the game Vermintide as a placeholder for future projects.</h2><br>
-                    <figure id=vermintide>
-                    <img src=".\assets\Images\vermintide.jpg" alt="Vermintide">
-                    </figure>
-            </section>
-            <div class=bigbar></div>
-            <section class=project3>
-                <h2 class=etext1>This is a map of Middle Earth that is used as a placeholder for future projects.</h2> <br>
-                    <figure id=middleearth>
-                    <img src=".\assets\Images\map_of_middle_earth.jpeg" alt="Map of Middle Earth">
-                    </figure>
-            </section>
-        </main>
-    </body>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style.css" />
+    <title>Michael Marlowe</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <img
+          src="assets/images/starsandsand.png"
+          alt="sandy landscape"
+          class="background"
+        />
+        <div class="title">
+          <h1>Michael Marlowe</h1>
+        </div>
+      </header>
+      <section>
+        <div class="about">
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic sequi
+            autem rerum nam consequuntur, dignissimos laudantium minus minima
+            exercitationem quasi?
+          </p>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos
+            dolorum enim molestias dolores assumenda minus, est quaerat
+            doloremque quis esse!
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, saepe
+            quisquam. Exercitationem laboriosam totam modi iure voluptatibus hic
+            neque nostrum, placeat similique! Quo officia itaque nisi fugit
+            dolores voluptates tempora.
+          </p>
+        </div>
+        <div class="project1">
+          <p>
+            <span class="fancy">BougieFoodie</span> is a project enabling the
+            user to stand at the intersection of food and culture, having a
+            central hub for the best user-generated content on any recipe or
+            food item by leveraging the API's of both YouTube and Wikipedia.
+            It's a great tool to learn how to make a dish and be informed about
+            it's history and cultural significance. <br />This site is live at:
+            <a href="https://marlowemich.github.io/BougieFoodie/"
+              >marlowemich.github.io/BougieFoodie</a
+            >
+          </p>
+          <img src="./assets/images/bougiefoodieimg.png" alt="Bougie Foodie" />
+        </div>
+
+        <div class="project2">
+          <img
+            src="./assets/images/weatherdashboard.png"
+            alt="Weather Dashboard"
+            id="dashboard"
+          />
+          <p>
+            <span class="fancy2">Weather Dashboard</span> is a useful tool for
+            looking up the weather anywhere in the world and getting an accurate
+            picture of the current day's conditions as well as the five days
+            afterward. The site site makes use of the OpenWeatherApi and
+            Moment.js in order to keep an accurate record of the current time
+            and weather. A useful website for planning a trip to the park or for
+            those curious to find out just how rainy it is in London. <br />
+            This site is live at:
+            <a href="https://marlowemich.github.io/weatherdashboard/"
+              >marlowemich.github.io/weatherdashboard</a
+            >
+          </p>
+        </div>
+        <div class="project3">
+          <p>
+            <span class="fancy3">Workday Scheduler</span> is a simple yet effective space to plan out the day with whatever events and todos one will
+            inevitably find themselves needing to remember. It uses Moment.js to color code all hours in a typical workday to indicate whether they are past, currently
+            happening, or yet to be addressed. Just fill out the schedule with your morning coffee. Preparation is the key to success. <br>
+            This site is live at: 
+            <a href="https://marlowemich.github.io/workdayscheduler/">marlowemich.github.io/workdayscheduler</a>
+          </p>
+          <img src="./assets/images/workday.png" alt="workday scheduler">
+        </div>
+        <div class="contact">
+          <ul>
+            <li>Let's get in touch!</li>
+            <li>
+              <a href="https://github.com/MarloweMich"
+                >github.com/MarloweMich</a
+              >
+            </li>
+            <li>marlowemich@gmail.com</li>
+          </ul>
+          <img src="./assets/images/stunning_photograph.jpg" alt="Photo of Michael Marlowe">
+        </div>
+      </section>
+    </div>
+  </body>
+  <script src="./assets/script.js"></script>
 </html>
