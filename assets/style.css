@@ -26,6 +26,18 @@ header{
     z-index: -1;
 }
 
+nav{
+    font-size: 2rem;
+}
+
+nav a{
+    /* margin: 4rem; */
+    margin-left: 2rem;
+    margin-right: 2rem;
+    /* justify-content: center;
+    align-items: center; */
+}
+
 .background{
     position: absolute;
     height: 300%;
@@ -49,14 +61,14 @@ p{
     margin: .5rem;
 }
 
-.about{
+#about{
      margin-top: 8rem;
     background-color: rgb(37, 35, 35);
     color: azure;
 }
 
 
-.project1{
+#project1{
     column-count: 2;
      margin-top: 8rem;
      background-color: rgb(37, 35, 35);
@@ -66,13 +78,13 @@ p{
      border-radius: 3%;
 }
 
-.project1 img {
+#project1 img {
     border: 3px solid white;
     width: 100%;
     height: 100%;
 }
 
-.project2{
+#project2{
     column-count: 2;
      margin-top: 8rem;
      background-color: rgb(37, 35, 35);
@@ -81,13 +93,13 @@ p{
      padding: 3%;
      border-radius: 3%;
 }
-.project2 img{
+#project2 img{
     border: 3px solid white;
     width: 100%;
     height: 100%;
 }
 
-.project3{
+#project3{
     column-count: 2;
      margin-top: 8rem;
      background-color: rgb(37, 35, 35);
@@ -97,13 +109,13 @@ p{
      border-radius: 3%;
 }
 
-.project3 img{
+#project3 img{
     border: 3px solid white;
     width:100%;
     height: 100%;
 }
 
-.contact{
+#contact{
     column-count: 2;
     margin-top: 8rem;
      background-color: rgb(37, 35, 35);
@@ -111,18 +123,18 @@ p{
      width: 100vw;
 }
 
-.contact img{
+#contact img{
     border: 3px solid white;
     width: 20%;
     height: 20%;
 }
 
-.contact ul{
+#contact ul{
     list-style-type: none;
     text-align: right;
 }
 
-.contact ul li{
+#contact ul li{
     font-size: 1.5rem;
     padding: 1rem;
 }
@@ -147,24 +159,30 @@ a{
 }
 
 @media screen and (max-width: 790px){
-    .project1{
+    nav a{
+        column-count: 1;
+        display: block;
+    }
+
+    #project1{
         column-count: 1;
     }
-    .project2{
+    #project2{
         display: flex;
         column-count: 1;
         flex-direction: column-reverse;
     }
-    .project3{
+
+    #project3{
         column-count: 1;
     }
-    .contact {
+    #contact {
         display: flex;
         column-count: 1;
         justify-content: center;
         align-items: center;
     }
-    .contact img{
+    #contact img{
         display: none;
     }
 }
