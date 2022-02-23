@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    background-color: rgb(37, 35, 35);
+    background-color: rgba(37, 35, 35);
 }
 
 .wrapper{
@@ -63,15 +63,16 @@ p{
 
 #about{
      margin-top: 8rem;
-    background-color: rgb(37, 35, 35);
+    background-color: rgba(37, 35, 35, .75);
     color: azure;
+    line-height: 2;
 }
 
 
 #project1{
     column-count: 2;
      margin-top: 8rem;
-     background-color: rgb(37, 35, 35);
+     background-color: rgba(37, 35, 35, .75);
      color: azure;
      line-height: 2;
      padding: 3%;
@@ -87,7 +88,7 @@ p{
 #project2{
     column-count: 2;
      margin-top: 8rem;
-     background-color: rgb(37, 35, 35);
+     background-color: rgba(37, 35, 35, .75);
      color: azure;
      line-height: 2;
      padding: 3%;
@@ -102,7 +103,7 @@ p{
 #project3{
     column-count: 2;
      margin-top: 8rem;
-     background-color: rgb(37, 35, 35);
+     background-color: rgba(37, 35, 35, .75);
      color: azure;
      line-height: 2;
      padding: 3%;
@@ -118,7 +119,7 @@ p{
 #contact{
     column-count: 2;
     margin-top: 8rem;
-     background-color: rgb(37, 35, 35);
+     background-color: rgba(37, 35, 35, .75);
      color: azure;
      width: 100vw;
 }
@@ -141,11 +142,21 @@ p{
 
 a{
     color: azure;
+    text-decoration: none;
 }
+
+a:hover {
+    text-decoration: underline;
+  }
+  
+  a:active {
+    text-decoration: underline;
+  }
 
 .fancy{
     font-size: 2rem;
     color:aquamarine;
+    
 }
 
 .fancy2{
@@ -158,7 +169,7 @@ a{
     color: salmon;
 }
 
-@media screen and (max-width: 790px){
+@media screen and (max-width: 850px){
     nav a{
         column-count: 1;
         display: block;
@@ -166,21 +177,27 @@ a{
 
     #project1{
         column-count: 1;
+        display: flex;
+        flex-direction: column-reverse;
     }
     #project2{
-        display: flex;
         column-count: 1;
-        flex-direction: column-reverse;
+        /* display: flex;
+        flex-direction: column-reverse; */
     }
 
     #project3{
         column-count: 1;
+        display: flex;
+        flex-direction: column-reverse;
     }
     #contact {
         display: flex;
         column-count: 1;
         justify-content: center;
         align-items: center;
+        /* flex: row wrap; */
+        
     }
     #contact img{
         display: none;
