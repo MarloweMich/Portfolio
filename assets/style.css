@@ -24,6 +24,7 @@ header{
     height: 100%;
     transform-style: preserve-3d;
     z-index: -1;
+    width: 95vw;
 }
 
 nav{
@@ -173,6 +174,10 @@ a:hover {
 }
 
 @media screen and (max-width: 850px){
+    .title{
+        font-size: 2rem;
+    }
+
     nav a{
         column-count: 1;
         display: block;
