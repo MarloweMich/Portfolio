@@ -3,14 +3,14 @@ const wrapper = document.querySelector(".wrapper");
 
 // button.attr('style', 'display: none')
 button.addEventListener('click', function(){
-    wrapper.scrollTo(0, 0);
+    wrapper.scrollTo({top: 0, behavior: "smooth"});
 });
 
 wrapper.addEventListener('scroll', function (){
-    if (wrapper.scrollY > 1000){
-    button.setAttribute('visibility', 'visible')
+    if (wrapper.compareDocumentPosition(0, 1000)){
+    button.setAttribute('style', 'visibility: visible')
 }
     else {
-        button.setAttribute('visibility', 'hidden')
+        button.setAttribute('style', 'visibility: hidden')
     }
 });
