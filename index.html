@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./assets/style.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
     <title>Michael Marlowe</title>
   </head>
   <body>
@@ -19,7 +19,7 @@
           <h1>Michael Marlowe</h1>
           <nav>
             <a href="#about">About me</a>
-            <a href="#project1">Some of my work</a>
+            <a href="#project">Some of my work</a>
             <a href="#contact">Contact me</a>
           </nav>
         </div>
@@ -41,16 +41,64 @@
             increasingly defines the world we live in.
           </p>
         </div>
-        <div id="project1">
+
+        <div id="project">
+          <img src="./assets/images/planetplanters.png" alt="Planet Planters" />
+          <p>
+            <a href="https://planetplanters.herokuapp.com/"
+              ><span class="fancyPlant">Planet Planters</span></a
+            >
+            is a fun, retro forum site for plant enthusiasts. Interest in
+            foraging and gardening on the whole has been on the uptick in recent
+            years. To match the influx of learners, Planet Planters has been created.
+            It is designed to be an easy and interactive way to post about
+            your local plantlife, as well as see and comment on posts from other
+            users! It is not location based, so any user may see a post from
+            potentially anywhere if they click into the plant file itself. <br />
+            This site is live <a href="https://planetplanters.herokuapp.com/"
+            ><strong>Right Here</strong></a
+          >
+          </p>
+        </div>
+
+        <div id="project">
+          <p>
+            <a href="http://marlowetechblog.herokuapp.com/"
+              ><span class="fancyBlog">Tech Blog</span></a
+            > is a useful and straight-to-the-point forum site for people interested in technology and sharing tips and tricks with their tools and techs. A homepage
+            feed holds all entries added by all users, each with a link to their own page where discussions through comments are created by all interested users.
+            All entries can be viewed by anyone entering the site, however, ability to post and comment is relegated to those who have logged in. After logging in the user
+            has a dashboard page from whence they can post submissions as well as delete any submissions that they have made previously. <br />
+            This site is live <a href="http://marlowetechblog.herokuapp.com/"
+            ><strong>Right Here</strong></a
+          >
+          </p>
+          <img src="./assets/images/techblog.png" alt="Tech Blog">
+        </div>
+
+        <div id="project">
+          <img src="./assets/images/teamprofile.png" alt="Note Taker">
+          <p>
+            <a href="https://github.com/MarloweMich/team-profile-generator">
+              <span class="fancyTeam">Team Profile Generator</span></a> is a command-line application for inputting employee's into three categories: manager, engineer and 
+              intern. Each employee is presented with an automatically generated ID as well as contact information for ease of access. It's a primarily backend application
+              using node.js and the inquirer package to create an HTML file after it runs. There is no deployed site but there is a youtube video demonstrating it's 
+              functionality with a heavy emphasis on Andrea Bocelli <br /> <a href="https://www.youtube.com/watch?v=3XKDs9cyHrc&t=78s"><strong>Right Here</strong></a>
+
+          </p>
+        </div>
+
+        <div id="project">
           <p>
             <a href="https://marlowemich.github.io/BougieFoodie/"
-              ><span class="fancy">BougieFoodie</span></a> is a project enabling the
-            user to stand at the intersection of food and culture, having a
-            central hub for the best user-generated content on any recipe or
-            food item by leveraging the API's of both YouTube and Wikipedia.
-            It's a great tool to learn how to make a dish and be informed about
-            it's history and cultural significance. <br />
-            This site is live 
+              ><span class="fancy">BougieFoodie</span></a
+            >
+            is a project enabling the user to stand at the intersection of food
+            and culture, having a central hub for the best user-generated
+            content on any recipe or food item by leveraging the API's of both
+            YouTube and Wikipedia. It's a great tool to learn how to make a dish
+            and be informed about it's history and cultural significance. <br />
+            This site is live
             <a href="https://marlowemich.github.io/BougieFoodie/"
               ><strong>Right Here</strong></a
             >
@@ -58,7 +106,7 @@
           <img src="assets/Images/bougiefoodieimg.png" alt="Bougie Foodie" />
         </div>
 
-        <div id="project2">
+        <div id="project">
           <img
             src="assets/Images/weatherdashboard.png"
             alt="Weather Dashboard"
@@ -66,30 +114,33 @@
           />
           <p>
             <a href="https://marlowemich.github.io/weatherdashboard/"
-              ><span class="fancy2">Weather Dashboard</span></a> is a useful tool for
-            looking up the weather anywhere in the world and getting an accurate
-            picture of the current day's conditions as well as the five days
-            afterward. The site site makes use of the OpenWeatherApi and
-            Moment.js in order to keep an accurate record of the current time
-            and weather. A useful website for planning a trip to the park or for
-            those curious to find out just how rainy it is in London. <br />
-            This site is live 
+              ><span class="fancy2">Weather Dashboard</span></a
+            >
+            is a useful tool for looking up the weather anywhere in the world
+            and getting an accurate picture of the current day's conditions as
+            well as the five days afterward. The site site makes use of the
+            OpenWeatherApi and Moment.js in order to keep an accurate record of
+            the current time and weather. A useful website for planning a trip
+            to the park or for those curious to find out just how rainy it is in
+            London. <br />
+            This site is live
             <a href="https://marlowemich.github.io/weatherdashboard/"
               ><strong>Right Here</strong></a
             >
           </p>
         </div>
-        <div id="project3">
+        <div id="project">
           <p>
             <a href="https://marlowemich.github.io/workdayscheduler/"
-              ><span class="fancy3">Workday Scheduler</span></a>  is a simple yet
-            effective space to plan out the day with whatever events and todos
-            one will inevitably find themselves needing to remember. It uses
-            Moment.js to color code all hours in a typical workday to indicate
-            whether they are past, currently happening, or yet to be addressed.
-            Just fill out the schedule with your morning coffee. Preparation is
-            the key to success. <br />
-            This site is live 
+              ><span class="fancy3">Workday Scheduler</span></a
+            >
+            is a simple yet effective space to plan out the day with whatever
+            events and todos one will inevitably find themselves needing to
+            remember. It uses Moment.js to color code all hours in a typical
+            workday to indicate whether they are past, currently happening, or
+            yet to be addressed. Just fill out the schedule with your morning
+            coffee. Preparation is the key to success. <br />
+            This site is live
             <a href="https://marlowemich.github.io/workdayscheduler/"
               ><strong>Right Here</strong></a
             >
@@ -98,15 +149,25 @@
         </div>
         <div id="contact">
           <ul>
-            <!-- <li>Let's get in touch!</li> -->
             <li>
               <a href="https://github.com/MarloweMich"
                 >github.com/MarloweMich</a
               >
             </li>
-            <li><a href="https://docs.google.com/document/d/e/2PACX-1vTA0BjDKIB-P3T13xeWJHllj4WUW7xIKsfKA4JWJa4WN8BPdoklaqtsyFTOo70wuAyd5rrqTElwP487/pub">Resume</a></li>
-            <li><a href="https://www.linkedin.com/in/michael-marlowe-3ab43764/">linkedin</a></li>
-            <li><a href="mailto:marlowemich@gmail.com">marlowemich@gmail.com</a></li>
+            <li>
+              <a
+                href="https://docs.google.com/document/d/e/2PACX-1vTA0BjDKIB-P3T13xeWJHllj4WUW7xIKsfKA4JWJa4WN8BPdoklaqtsyFTOo70wuAyd5rrqTElwP487/pub"
+                >Resume</a
+              >
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/michael-marlowe-3ab43764/"
+                >linkedin</a
+              >
+            </li>
+            <li>
+              <a href="mailto:marlowemich@gmail.com">marlowemich@gmail.com</a>
+            </li>
           </ul>
           <img
             src="assets/Images/stunning_photograph.jpg"
@@ -114,9 +175,8 @@
           />
         </div>
       </section>
-      
     </div>
   </body>
   <div><button id="topnav">&#8593;</button></div>
-  <script src="./assets/script.js"></script>
+  <script src="./assets/js/script.js"></script>
 </html>
